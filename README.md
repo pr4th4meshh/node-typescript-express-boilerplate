@@ -1,4 +1,9 @@
  ## Node Typescript Boilerplate with Express & MongoDB
+
+ 0th step:
+ ```
+ npm init -y
+ ```
  
  1st step:
  ```
