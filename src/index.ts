@@ -24,7 +24,10 @@ if (!PORT) {
 //     console.log(err)
 //   })
 const corsOptions = {
-  origin: ["http://localhost:3000"],
+  origin: [
+    // "http://localhost:3000"
+    "https://node-typescript-express-boilerplate.vercel.app",
+  ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE"],
 }
